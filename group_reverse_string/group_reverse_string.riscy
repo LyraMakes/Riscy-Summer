@@ -1,0 +1,78 @@
+main:
+    li D, #reverse_string
+
+    jalr C, D
+
+    halt
+
+
+reverse_string:
+    push A
+    push B
+    push C
+    push D
+
+    ; D = Jump
+    ; C = short term
+    ; b = j
+    ; a = i
+
+    li B, #string
+    
+reverse_string_loop:
+    load C, B
+
+    li D, #reverse_string_loop_done
+    skipz C
+    jalr D, D
+
+    inc B
+    
+    li D, #reverse_string_loop
+    jalr D, D
+
+reverse_string_loop_done:
+
+    dec B
+
+    li A, #string
+
+reverse_string_swap_loop:
+    sub C, C
+    add C, B
+    sub C, A
+    li D, #reverse_string_complete
+    skipge C
+    jalr D, D
+
+    load C, A
+    load D, B
+    store D, A
+    store C, B
+    inc A
+    dec B
+    li D, #reverse_string_swap_loop
+    jalr D, D
+
+
+
+
+
+reverse_string_complete:
+    pop D
+    pop C
+    pop B
+    pop A
+    jalr C,C
+
+
+data:
+
+string:
+    db 0x48
+    db 0x65
+    db 0x6C
+    db 0x6C
+    db 0x6F
+    db 0x21
+    db 0x00

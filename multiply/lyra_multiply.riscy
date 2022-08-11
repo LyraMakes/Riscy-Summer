@@ -1,0 +1,24 @@
+    sli A,0
+    sli A,5
+
+    sli C,0
+    sli C,3
+    
+    sub B,B
+    add B,A
+
+    dec C
+    
+loop:
+    add A,B
+    dec C
+    
+    li D, #loop
+    
+    ; Check if counted enough
+    skipz C
+    jalr D,D
+
+    out A
+
+    halt

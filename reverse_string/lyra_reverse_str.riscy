@@ -1,0 +1,61 @@
+main:
+    li A, #data
+
+    li D, #print
+    jalr C,D
+
+    halt
+
+
+
+
+; rev_print(char*)
+print:
+    push C
+    push A
+    push B
+
+
+    sub C,C
+    add C,A
+    dec C
+find_end:
+    inc C
+    load B,C
+    
+    li D, #find_end
+    skipz B
+    jalr D, D
+
+
+    push A
+
+print_loop:
+    pop A
+    dec C
+    load B,C
+    out B
+
+    li D, #print_loop
+
+    push A
+    sub A, C
+
+    skipz A
+    jalr D,D
+
+    pop B
+    pop A
+    pop C
+
+    jalr C,C
+
+
+data:
+    db 0x48
+    db 0x65
+    db 0x6C
+    db 0x6C
+    db 0x6F
+    db 0x21
+    db 0x00

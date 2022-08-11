@@ -1,0 +1,26 @@
+
+0000	    sli A 0
+0001	    sli A 5	
+
+0002	    sli C 0
+0003	    sli C 3	    
+
+0004	    sub B B
+0005	    add B A	
+
+0006	    dec C	    
+
+0007	loop:
+0007	    add A B
+0008	    dec C	    
+
+0009		sliu D #loop	[00]
+000a		slil D #loop	[07]	    
+	    ; Check if counted enough
+
+000b	    skipz C
+000c	    jalr D D	
+
+000d	    out A	
+
+000e	    halt

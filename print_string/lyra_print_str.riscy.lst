@@ -1,0 +1,51 @@
+	
+
+0000	main:	;    sli A,0
+	;    sli A,2
+
+0000		sliu A #data	[01]
+0001		slil A #data	[04]	
+
+0002		sliu D #print	[00]
+0003		slil D #print	[06]
+0004	    jalr C D	
+
+0005	    halt	
+	
+	
+	
+	; print(char*)
+
+0006	print:
+0006	    push C
+0007	    push A
+0008	    push B	
+
+0009	print_loop:
+0009	    load B A
+000a	    out B
+000b	    inc A	
+
+000c		sliu D #print_loop	[00]
+000d		slil D #print_loop	[09]	
+
+000e	    skipz B
+000f	    jalr D D	
+
+0010	    pop B
+0011	    pop A
+0012	    pop C	
+	
+
+0013	    jalr C C	
+	
+
+0014	data:
+0014	    db 0x48
+0015	    db 0x65
+0016	    db 0x6C
+0017	    db 0x6C
+0018	    db 0x6F
+0019	    db 0x21
+001a	    db 0x0D
+001b	    db 0x00

@@ -1,0 +1,5370 @@
+SLI A,0
+0 PC: 1, A: 0, B: 0, C: 0, D: 0, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI A,0
+1 PC: 2, A: 0, B: 0, C: 0, D: 0, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+2 PC: 3, A: 0, B: 0, C: 0, D: 0, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,6
+3 PC: 4, A: 0, B: 0, C: 0, D: 6, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR C,[D]
+4 PC: 6, A: 0, B: 0, C: 5, D: 6, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+PUSH C
+5 PC: 7, A: 0, B: 0, C: 5, D: 6, SP: ff, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+PUSH A
+6 PC: 8, A: 0, B: 0, C: 5, D: 6, SP: fe, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+PUSH B
+7 PC: 9, A: 0, B: 0, C: 5, D: 6, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+8 PC: a, A: 0, B: c0, C: 5, D: 6, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÀOUT B
+9 PC: b, A: 0, B: c0, C: 5, D: 6, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+10 PC: c, A: 1, B: c0, C: 5, D: 6, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+11 PC: d, A: 1, B: c0, C: 5, D: 60, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+12 PC: e, A: 1, B: c0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+13 PC: f, A: 1, B: c0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+14 PC: 9, A: 1, B: c0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+15 PC: a, A: 1, B: c0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÀOUT B
+16 PC: b, A: 1, B: c0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+17 PC: c, A: 2, B: c0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+18 PC: d, A: 2, B: c0, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+19 PC: e, A: 2, B: c0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+20 PC: f, A: 2, B: c0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+21 PC: 9, A: 2, B: c0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+22 PC: a, A: 2, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÌOUT B
+23 PC: b, A: 2, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+24 PC: c, A: 3, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+25 PC: d, A: 3, B: cc, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+26 PC: e, A: 3, B: cc, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+27 PC: f, A: 3, B: cc, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+28 PC: 9, A: 3, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+29 PC: a, A: 3, B: de, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÞOUT B
+30 PC: b, A: 3, B: de, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+31 PC: c, A: 4, B: de, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+32 PC: d, A: 4, B: de, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+33 PC: e, A: 4, B: de, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+34 PC: f, A: 4, B: de, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+35 PC: 9, A: 4, B: de, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+36 PC: a, A: 4, B: 5b, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+[OUT B
+37 PC: b, A: 4, B: 5b, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+38 PC: c, A: 5, B: 5b, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+39 PC: d, A: 5, B: 5b, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+40 PC: e, A: 5, B: 5b, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+41 PC: f, A: 5, B: 5b, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+42 PC: 9, A: 5, B: 5b, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+43 PC: a, A: 5, B: 1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+OUT B
+44 PC: b, A: 5, B: 1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+45 PC: c, A: 6, B: 1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+46 PC: d, A: 6, B: 1, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+47 PC: e, A: 6, B: 1, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+48 PC: f, A: 6, B: 1, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+49 PC: 9, A: 6, B: 1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+50 PC: a, A: 6, B: a8, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+¨OUT B
+51 PC: b, A: 6, B: a8, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+52 PC: c, A: 7, B: a8, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+53 PC: d, A: 7, B: a8, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+54 PC: e, A: 7, B: a8, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+55 PC: f, A: 7, B: a8, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+56 PC: 9, A: 7, B: a8, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+57 PC: a, A: 7, B: a0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ OUT B
+58 PC: b, A: 7, B: a0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+59 PC: c, A: 8, B: a0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+60 PC: d, A: 8, B: a0, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+61 PC: e, A: 8, B: a0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+62 PC: f, A: 8, B: a0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+63 PC: 9, A: 8, B: a0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+64 PC: a, A: 8, B: a4, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+¤OUT B
+65 PC: b, A: 8, B: a4, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+66 PC: c, A: 9, B: a4, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+67 PC: d, A: 9, B: a4, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+68 PC: e, A: 9, B: a4, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+69 PC: f, A: 9, B: a4, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+70 PC: 9, A: 9, B: a4, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+71 PC: a, A: 9, B: 24, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+$OUT B
+72 PC: b, A: 9, B: 24, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+73 PC: c, A: a, B: 24, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+74 PC: d, A: a, B: 24, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+75 PC: e, A: a, B: 24, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+76 PC: f, A: a, B: 24, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+77 PC: 9, A: a, B: 24, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+78 PC: a, A: a, B: 86, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+†OUT B
+79 PC: b, A: a, B: 86, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+80 PC: c, A: b, B: 86, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+81 PC: d, A: b, B: 86, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+82 PC: e, A: b, B: 86, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+83 PC: f, A: b, B: 86, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+84 PC: 9, A: b, B: 86, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+85 PC: a, A: b, B: 80, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+€OUT B
+86 PC: b, A: b, B: 80, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+87 PC: c, A: c, B: 80, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+88 PC: d, A: c, B: 80, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+89 PC: e, A: c, B: 80, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+90 PC: f, A: c, B: 80, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+91 PC: 9, A: c, B: 80, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+92 PC: a, A: c, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÌOUT B
+93 PC: b, A: c, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+94 PC: c, A: d, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+95 PC: d, A: d, B: cc, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+96 PC: e, A: d, B: cc, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+97 PC: f, A: d, B: cc, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+98 PC: 9, A: d, B: cc, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+99 PC: a, A: d, B: ed, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+íOUT B
+100 PC: b, A: d, B: ed, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+101 PC: c, A: e, B: ed, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+102 PC: d, A: e, B: ed, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+103 PC: e, A: e, B: ed, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+104 PC: f, A: e, B: ed, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+105 PC: 9, A: e, B: ed, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+106 PC: a, A: e, B: 44, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+DOUT B
+107 PC: b, A: e, B: 44, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+108 PC: c, A: f, B: 44, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+109 PC: d, A: f, B: 44, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+110 PC: e, A: f, B: 44, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+111 PC: f, A: f, B: 44, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+112 PC: 9, A: f, B: 44, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+113 PC: a, A: f, B: 5f, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+_OUT B
+114 PC: b, A: f, B: 5f, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+115 PC: c, A: 10, B: 5f, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+116 PC: d, A: 10, B: 5f, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+117 PC: e, A: 10, B: 5f, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+118 PC: f, A: 10, B: 5f, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+119 PC: 9, A: 10, B: 5f, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+120 PC: a, A: 10, B: a5, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+¥OUT B
+121 PC: b, A: 10, B: a5, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+122 PC: c, A: 11, B: a5, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+123 PC: d, A: 11, B: a5, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+124 PC: e, A: 11, B: a5, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+125 PC: f, A: 11, B: a5, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+126 PC: 9, A: 11, B: a5, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+127 PC: a, A: 11, B: a1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+¡OUT B
+128 PC: b, A: 11, B: a1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+129 PC: c, A: 12, B: a1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+130 PC: d, A: 12, B: a1, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+131 PC: e, A: 12, B: a1, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+132 PC: f, A: 12, B: a1, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+133 PC: 9, A: 12, B: a1, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+134 PC: a, A: 12, B: a9, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+©OUT B
+135 PC: b, A: 12, B: a9, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+136 PC: c, A: 13, B: a9, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+137 PC: d, A: 13, B: a9, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+138 PC: e, A: 13, B: a9, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+139 PC: f, A: 13, B: a9, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+140 PC: 9, A: 13, B: a9, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+141 PC: a, A: 13, B: 5a, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ZOUT B
+142 PC: b, A: 13, B: 5a, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+143 PC: c, A: 14, B: 5a, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+144 PC: d, A: 14, B: 5a, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+145 PC: e, A: 14, B: 5a, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+146 PC: f, A: 14, B: 5a, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+147 PC: 9, A: 14, B: 5a, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+148 PC: a, A: 14, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+149 PC: b, A: 14, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+150 PC: c, A: 15, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+151 PC: d, A: 15, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+152 PC: e, A: 15, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+153 PC: f, A: 15, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+154 PC: 9, A: 15, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+155 PC: a, A: 15, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+156 PC: b, A: 15, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+157 PC: c, A: 16, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+158 PC: d, A: 16, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+159 PC: e, A: 16, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+160 PC: f, A: 16, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+161 PC: 9, A: 16, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+162 PC: a, A: 16, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+163 PC: b, A: 16, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+164 PC: c, A: 17, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+165 PC: d, A: 17, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+166 PC: e, A: 17, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+167 PC: f, A: 17, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+168 PC: 9, A: 17, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+169 PC: a, A: 17, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+170 PC: b, A: 17, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+171 PC: c, A: 18, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+172 PC: d, A: 18, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+173 PC: e, A: 18, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+174 PC: f, A: 18, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+175 PC: 9, A: 18, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+176 PC: a, A: 18, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+177 PC: b, A: 18, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+178 PC: c, A: 19, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+179 PC: d, A: 19, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+180 PC: e, A: 19, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+181 PC: f, A: 19, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+182 PC: 9, A: 19, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+183 PC: a, A: 19, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+184 PC: b, A: 19, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+185 PC: c, A: 1a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+186 PC: d, A: 1a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+187 PC: e, A: 1a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+188 PC: f, A: 1a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+189 PC: 9, A: 1a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+190 PC: a, A: 1a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+191 PC: b, A: 1a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+192 PC: c, A: 1b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+193 PC: d, A: 1b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+194 PC: e, A: 1b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+195 PC: f, A: 1b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+196 PC: 9, A: 1b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+197 PC: a, A: 1b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+198 PC: b, A: 1b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+199 PC: c, A: 1c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+200 PC: d, A: 1c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+201 PC: e, A: 1c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+202 PC: f, A: 1c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+203 PC: 9, A: 1c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+204 PC: a, A: 1c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+205 PC: b, A: 1c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+206 PC: c, A: 1d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+207 PC: d, A: 1d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+208 PC: e, A: 1d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+209 PC: f, A: 1d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+210 PC: 9, A: 1d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+211 PC: a, A: 1d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+212 PC: b, A: 1d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+213 PC: c, A: 1e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+214 PC: d, A: 1e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+215 PC: e, A: 1e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+216 PC: f, A: 1e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+217 PC: 9, A: 1e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+218 PC: a, A: 1e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+219 PC: b, A: 1e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+220 PC: c, A: 1f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+221 PC: d, A: 1f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+222 PC: e, A: 1f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+223 PC: f, A: 1f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+224 PC: 9, A: 1f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+225 PC: a, A: 1f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+226 PC: b, A: 1f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+227 PC: c, A: 20, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+228 PC: d, A: 20, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+229 PC: e, A: 20, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+230 PC: f, A: 20, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+231 PC: 9, A: 20, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+232 PC: a, A: 20, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+233 PC: b, A: 20, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+234 PC: c, A: 21, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+235 PC: d, A: 21, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+236 PC: e, A: 21, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+237 PC: f, A: 21, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+238 PC: 9, A: 21, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+239 PC: a, A: 21, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+240 PC: b, A: 21, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+241 PC: c, A: 22, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+242 PC: d, A: 22, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+243 PC: e, A: 22, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+244 PC: f, A: 22, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+245 PC: 9, A: 22, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+246 PC: a, A: 22, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+247 PC: b, A: 22, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+248 PC: c, A: 23, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+249 PC: d, A: 23, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+250 PC: e, A: 23, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+251 PC: f, A: 23, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+252 PC: 9, A: 23, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+253 PC: a, A: 23, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+254 PC: b, A: 23, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+255 PC: c, A: 24, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+256 PC: d, A: 24, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+257 PC: e, A: 24, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+258 PC: f, A: 24, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+259 PC: 9, A: 24, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+260 PC: a, A: 24, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+261 PC: b, A: 24, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+262 PC: c, A: 25, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+263 PC: d, A: 25, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+264 PC: e, A: 25, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+265 PC: f, A: 25, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+266 PC: 9, A: 25, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+267 PC: a, A: 25, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+268 PC: b, A: 25, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+269 PC: c, A: 26, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+270 PC: d, A: 26, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+271 PC: e, A: 26, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+272 PC: f, A: 26, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+273 PC: 9, A: 26, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+274 PC: a, A: 26, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+275 PC: b, A: 26, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+276 PC: c, A: 27, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+277 PC: d, A: 27, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+278 PC: e, A: 27, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+279 PC: f, A: 27, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+280 PC: 9, A: 27, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+281 PC: a, A: 27, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+282 PC: b, A: 27, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+283 PC: c, A: 28, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+284 PC: d, A: 28, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+285 PC: e, A: 28, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+286 PC: f, A: 28, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+287 PC: 9, A: 28, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+288 PC: a, A: 28, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+289 PC: b, A: 28, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+290 PC: c, A: 29, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+291 PC: d, A: 29, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+292 PC: e, A: 29, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+293 PC: f, A: 29, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+294 PC: 9, A: 29, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+295 PC: a, A: 29, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+296 PC: b, A: 29, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+297 PC: c, A: 2a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+298 PC: d, A: 2a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+299 PC: e, A: 2a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+300 PC: f, A: 2a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+301 PC: 9, A: 2a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+302 PC: a, A: 2a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+303 PC: b, A: 2a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+304 PC: c, A: 2b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+305 PC: d, A: 2b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+306 PC: e, A: 2b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+307 PC: f, A: 2b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+308 PC: 9, A: 2b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+309 PC: a, A: 2b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+310 PC: b, A: 2b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+311 PC: c, A: 2c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+312 PC: d, A: 2c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+313 PC: e, A: 2c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+314 PC: f, A: 2c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+315 PC: 9, A: 2c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+316 PC: a, A: 2c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+317 PC: b, A: 2c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+318 PC: c, A: 2d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+319 PC: d, A: 2d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+320 PC: e, A: 2d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+321 PC: f, A: 2d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+322 PC: 9, A: 2d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+323 PC: a, A: 2d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+324 PC: b, A: 2d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+325 PC: c, A: 2e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+326 PC: d, A: 2e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+327 PC: e, A: 2e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+328 PC: f, A: 2e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+329 PC: 9, A: 2e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+330 PC: a, A: 2e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+331 PC: b, A: 2e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+332 PC: c, A: 2f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+333 PC: d, A: 2f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+334 PC: e, A: 2f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+335 PC: f, A: 2f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+336 PC: 9, A: 2f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+337 PC: a, A: 2f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+338 PC: b, A: 2f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+339 PC: c, A: 30, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+340 PC: d, A: 30, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+341 PC: e, A: 30, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+342 PC: f, A: 30, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+343 PC: 9, A: 30, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+344 PC: a, A: 30, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+345 PC: b, A: 30, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+346 PC: c, A: 31, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+347 PC: d, A: 31, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+348 PC: e, A: 31, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+349 PC: f, A: 31, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+350 PC: 9, A: 31, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+351 PC: a, A: 31, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+352 PC: b, A: 31, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+353 PC: c, A: 32, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+354 PC: d, A: 32, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+355 PC: e, A: 32, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+356 PC: f, A: 32, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+357 PC: 9, A: 32, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+358 PC: a, A: 32, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+359 PC: b, A: 32, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+360 PC: c, A: 33, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+361 PC: d, A: 33, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+362 PC: e, A: 33, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+363 PC: f, A: 33, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+364 PC: 9, A: 33, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+365 PC: a, A: 33, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+366 PC: b, A: 33, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+367 PC: c, A: 34, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+368 PC: d, A: 34, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+369 PC: e, A: 34, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+370 PC: f, A: 34, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+371 PC: 9, A: 34, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+372 PC: a, A: 34, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+373 PC: b, A: 34, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+374 PC: c, A: 35, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+375 PC: d, A: 35, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+376 PC: e, A: 35, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+377 PC: f, A: 35, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+378 PC: 9, A: 35, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+379 PC: a, A: 35, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+380 PC: b, A: 35, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+381 PC: c, A: 36, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+382 PC: d, A: 36, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+383 PC: e, A: 36, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+384 PC: f, A: 36, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+385 PC: 9, A: 36, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+386 PC: a, A: 36, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+387 PC: b, A: 36, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+388 PC: c, A: 37, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+389 PC: d, A: 37, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+390 PC: e, A: 37, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+391 PC: f, A: 37, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+392 PC: 9, A: 37, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+393 PC: a, A: 37, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+394 PC: b, A: 37, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+395 PC: c, A: 38, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+396 PC: d, A: 38, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+397 PC: e, A: 38, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+398 PC: f, A: 38, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+399 PC: 9, A: 38, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+400 PC: a, A: 38, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+401 PC: b, A: 38, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+402 PC: c, A: 39, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+403 PC: d, A: 39, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+404 PC: e, A: 39, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+405 PC: f, A: 39, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+406 PC: 9, A: 39, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+407 PC: a, A: 39, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+408 PC: b, A: 39, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+409 PC: c, A: 3a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+410 PC: d, A: 3a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+411 PC: e, A: 3a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+412 PC: f, A: 3a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+413 PC: 9, A: 3a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+414 PC: a, A: 3a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+415 PC: b, A: 3a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+416 PC: c, A: 3b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+417 PC: d, A: 3b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+418 PC: e, A: 3b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+419 PC: f, A: 3b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+420 PC: 9, A: 3b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+421 PC: a, A: 3b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+422 PC: b, A: 3b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+423 PC: c, A: 3c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+424 PC: d, A: 3c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+425 PC: e, A: 3c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+426 PC: f, A: 3c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+427 PC: 9, A: 3c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+428 PC: a, A: 3c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+429 PC: b, A: 3c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+430 PC: c, A: 3d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+431 PC: d, A: 3d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+432 PC: e, A: 3d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+433 PC: f, A: 3d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+434 PC: 9, A: 3d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+435 PC: a, A: 3d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+436 PC: b, A: 3d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+437 PC: c, A: 3e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+438 PC: d, A: 3e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+439 PC: e, A: 3e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+440 PC: f, A: 3e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+441 PC: 9, A: 3e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+442 PC: a, A: 3e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+443 PC: b, A: 3e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+444 PC: c, A: 3f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+445 PC: d, A: 3f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+446 PC: e, A: 3f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+447 PC: f, A: 3f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+448 PC: 9, A: 3f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+449 PC: a, A: 3f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+450 PC: b, A: 3f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+451 PC: c, A: 40, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+452 PC: d, A: 40, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+453 PC: e, A: 40, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+454 PC: f, A: 40, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+455 PC: 9, A: 40, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+456 PC: a, A: 40, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+457 PC: b, A: 40, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+458 PC: c, A: 41, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+459 PC: d, A: 41, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+460 PC: e, A: 41, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+461 PC: f, A: 41, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+462 PC: 9, A: 41, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+463 PC: a, A: 41, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+464 PC: b, A: 41, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+465 PC: c, A: 42, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+466 PC: d, A: 42, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+467 PC: e, A: 42, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+468 PC: f, A: 42, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+469 PC: 9, A: 42, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+470 PC: a, A: 42, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+471 PC: b, A: 42, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+472 PC: c, A: 43, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+473 PC: d, A: 43, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+474 PC: e, A: 43, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+475 PC: f, A: 43, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+476 PC: 9, A: 43, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+477 PC: a, A: 43, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+478 PC: b, A: 43, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+479 PC: c, A: 44, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+480 PC: d, A: 44, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+481 PC: e, A: 44, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+482 PC: f, A: 44, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+483 PC: 9, A: 44, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+484 PC: a, A: 44, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+485 PC: b, A: 44, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+486 PC: c, A: 45, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+487 PC: d, A: 45, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+488 PC: e, A: 45, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+489 PC: f, A: 45, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+490 PC: 9, A: 45, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+491 PC: a, A: 45, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+492 PC: b, A: 45, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+493 PC: c, A: 46, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+494 PC: d, A: 46, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+495 PC: e, A: 46, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+496 PC: f, A: 46, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+497 PC: 9, A: 46, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+498 PC: a, A: 46, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+499 PC: b, A: 46, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+500 PC: c, A: 47, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+501 PC: d, A: 47, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+502 PC: e, A: 47, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+503 PC: f, A: 47, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+504 PC: 9, A: 47, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+505 PC: a, A: 47, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+506 PC: b, A: 47, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+507 PC: c, A: 48, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+508 PC: d, A: 48, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+509 PC: e, A: 48, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+510 PC: f, A: 48, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+511 PC: 9, A: 48, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+512 PC: a, A: 48, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+513 PC: b, A: 48, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+514 PC: c, A: 49, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+515 PC: d, A: 49, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+516 PC: e, A: 49, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+517 PC: f, A: 49, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+518 PC: 9, A: 49, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+519 PC: a, A: 49, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+520 PC: b, A: 49, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+521 PC: c, A: 4a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+522 PC: d, A: 4a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+523 PC: e, A: 4a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+524 PC: f, A: 4a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+525 PC: 9, A: 4a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+526 PC: a, A: 4a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+527 PC: b, A: 4a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+528 PC: c, A: 4b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+529 PC: d, A: 4b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+530 PC: e, A: 4b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+531 PC: f, A: 4b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+532 PC: 9, A: 4b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+533 PC: a, A: 4b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+534 PC: b, A: 4b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+535 PC: c, A: 4c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+536 PC: d, A: 4c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+537 PC: e, A: 4c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+538 PC: f, A: 4c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+539 PC: 9, A: 4c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+540 PC: a, A: 4c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+541 PC: b, A: 4c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+542 PC: c, A: 4d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+543 PC: d, A: 4d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+544 PC: e, A: 4d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+545 PC: f, A: 4d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+546 PC: 9, A: 4d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+547 PC: a, A: 4d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+548 PC: b, A: 4d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+549 PC: c, A: 4e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+550 PC: d, A: 4e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+551 PC: e, A: 4e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+552 PC: f, A: 4e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+553 PC: 9, A: 4e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+554 PC: a, A: 4e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+555 PC: b, A: 4e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+556 PC: c, A: 4f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+557 PC: d, A: 4f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+558 PC: e, A: 4f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+559 PC: f, A: 4f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+560 PC: 9, A: 4f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+561 PC: a, A: 4f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+562 PC: b, A: 4f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+563 PC: c, A: 50, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+564 PC: d, A: 50, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+565 PC: e, A: 50, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+566 PC: f, A: 50, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+567 PC: 9, A: 50, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+568 PC: a, A: 50, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+569 PC: b, A: 50, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+570 PC: c, A: 51, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+571 PC: d, A: 51, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+572 PC: e, A: 51, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+573 PC: f, A: 51, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+574 PC: 9, A: 51, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+575 PC: a, A: 51, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+576 PC: b, A: 51, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+577 PC: c, A: 52, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+578 PC: d, A: 52, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+579 PC: e, A: 52, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+580 PC: f, A: 52, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+581 PC: 9, A: 52, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+582 PC: a, A: 52, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+583 PC: b, A: 52, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+584 PC: c, A: 53, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+585 PC: d, A: 53, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+586 PC: e, A: 53, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+587 PC: f, A: 53, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+588 PC: 9, A: 53, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+589 PC: a, A: 53, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+590 PC: b, A: 53, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+591 PC: c, A: 54, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+592 PC: d, A: 54, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+593 PC: e, A: 54, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+594 PC: f, A: 54, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+595 PC: 9, A: 54, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+596 PC: a, A: 54, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+597 PC: b, A: 54, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+598 PC: c, A: 55, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+599 PC: d, A: 55, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+600 PC: e, A: 55, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+601 PC: f, A: 55, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+602 PC: 9, A: 55, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+603 PC: a, A: 55, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+604 PC: b, A: 55, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+605 PC: c, A: 56, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+606 PC: d, A: 56, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+607 PC: e, A: 56, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+608 PC: f, A: 56, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+609 PC: 9, A: 56, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+610 PC: a, A: 56, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+611 PC: b, A: 56, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+612 PC: c, A: 57, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+613 PC: d, A: 57, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+614 PC: e, A: 57, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+615 PC: f, A: 57, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+616 PC: 9, A: 57, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+617 PC: a, A: 57, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+618 PC: b, A: 57, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+619 PC: c, A: 58, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+620 PC: d, A: 58, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+621 PC: e, A: 58, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+622 PC: f, A: 58, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+623 PC: 9, A: 58, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+624 PC: a, A: 58, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+625 PC: b, A: 58, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+626 PC: c, A: 59, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+627 PC: d, A: 59, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+628 PC: e, A: 59, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+629 PC: f, A: 59, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+630 PC: 9, A: 59, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+631 PC: a, A: 59, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+632 PC: b, A: 59, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+633 PC: c, A: 5a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+634 PC: d, A: 5a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+635 PC: e, A: 5a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+636 PC: f, A: 5a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+637 PC: 9, A: 5a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+638 PC: a, A: 5a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+639 PC: b, A: 5a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+640 PC: c, A: 5b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+641 PC: d, A: 5b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+642 PC: e, A: 5b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+643 PC: f, A: 5b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+644 PC: 9, A: 5b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+645 PC: a, A: 5b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+646 PC: b, A: 5b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+647 PC: c, A: 5c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+648 PC: d, A: 5c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+649 PC: e, A: 5c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+650 PC: f, A: 5c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+651 PC: 9, A: 5c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+652 PC: a, A: 5c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+653 PC: b, A: 5c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+654 PC: c, A: 5d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+655 PC: d, A: 5d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+656 PC: e, A: 5d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+657 PC: f, A: 5d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+658 PC: 9, A: 5d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+659 PC: a, A: 5d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+660 PC: b, A: 5d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+661 PC: c, A: 5e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+662 PC: d, A: 5e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+663 PC: e, A: 5e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+664 PC: f, A: 5e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+665 PC: 9, A: 5e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+666 PC: a, A: 5e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+667 PC: b, A: 5e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+668 PC: c, A: 5f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+669 PC: d, A: 5f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+670 PC: e, A: 5f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+671 PC: f, A: 5f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+672 PC: 9, A: 5f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+673 PC: a, A: 5f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+674 PC: b, A: 5f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+675 PC: c, A: 60, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+676 PC: d, A: 60, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+677 PC: e, A: 60, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+678 PC: f, A: 60, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+679 PC: 9, A: 60, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+680 PC: a, A: 60, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+681 PC: b, A: 60, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+682 PC: c, A: 61, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+683 PC: d, A: 61, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+684 PC: e, A: 61, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+685 PC: f, A: 61, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+686 PC: 9, A: 61, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+687 PC: a, A: 61, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+688 PC: b, A: 61, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+689 PC: c, A: 62, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+690 PC: d, A: 62, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+691 PC: e, A: 62, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+692 PC: f, A: 62, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+693 PC: 9, A: 62, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+694 PC: a, A: 62, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+695 PC: b, A: 62, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+696 PC: c, A: 63, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+697 PC: d, A: 63, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+698 PC: e, A: 63, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+699 PC: f, A: 63, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+700 PC: 9, A: 63, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+701 PC: a, A: 63, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+702 PC: b, A: 63, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+703 PC: c, A: 64, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+704 PC: d, A: 64, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+705 PC: e, A: 64, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+706 PC: f, A: 64, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+707 PC: 9, A: 64, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+708 PC: a, A: 64, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+709 PC: b, A: 64, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+710 PC: c, A: 65, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+711 PC: d, A: 65, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+712 PC: e, A: 65, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+713 PC: f, A: 65, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+714 PC: 9, A: 65, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+715 PC: a, A: 65, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+716 PC: b, A: 65, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+717 PC: c, A: 66, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+718 PC: d, A: 66, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+719 PC: e, A: 66, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+720 PC: f, A: 66, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+721 PC: 9, A: 66, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+722 PC: a, A: 66, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+723 PC: b, A: 66, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+724 PC: c, A: 67, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+725 PC: d, A: 67, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+726 PC: e, A: 67, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+727 PC: f, A: 67, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+728 PC: 9, A: 67, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+729 PC: a, A: 67, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+730 PC: b, A: 67, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+731 PC: c, A: 68, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+732 PC: d, A: 68, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+733 PC: e, A: 68, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+734 PC: f, A: 68, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+735 PC: 9, A: 68, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+736 PC: a, A: 68, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+737 PC: b, A: 68, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+738 PC: c, A: 69, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+739 PC: d, A: 69, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+740 PC: e, A: 69, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+741 PC: f, A: 69, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+742 PC: 9, A: 69, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+743 PC: a, A: 69, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+744 PC: b, A: 69, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+745 PC: c, A: 6a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+746 PC: d, A: 6a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+747 PC: e, A: 6a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+748 PC: f, A: 6a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+749 PC: 9, A: 6a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+750 PC: a, A: 6a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+751 PC: b, A: 6a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+752 PC: c, A: 6b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+753 PC: d, A: 6b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+754 PC: e, A: 6b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+755 PC: f, A: 6b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+756 PC: 9, A: 6b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+757 PC: a, A: 6b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+758 PC: b, A: 6b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+759 PC: c, A: 6c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+760 PC: d, A: 6c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+761 PC: e, A: 6c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+762 PC: f, A: 6c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+763 PC: 9, A: 6c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+764 PC: a, A: 6c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+765 PC: b, A: 6c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+766 PC: c, A: 6d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+767 PC: d, A: 6d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+768 PC: e, A: 6d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+769 PC: f, A: 6d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+770 PC: 9, A: 6d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+771 PC: a, A: 6d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+772 PC: b, A: 6d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+773 PC: c, A: 6e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+774 PC: d, A: 6e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+775 PC: e, A: 6e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+776 PC: f, A: 6e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+777 PC: 9, A: 6e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+778 PC: a, A: 6e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+779 PC: b, A: 6e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+780 PC: c, A: 6f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+781 PC: d, A: 6f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+782 PC: e, A: 6f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+783 PC: f, A: 6f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+784 PC: 9, A: 6f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+785 PC: a, A: 6f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+786 PC: b, A: 6f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+787 PC: c, A: 70, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+788 PC: d, A: 70, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+789 PC: e, A: 70, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+790 PC: f, A: 70, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+791 PC: 9, A: 70, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+792 PC: a, A: 70, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+793 PC: b, A: 70, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+794 PC: c, A: 71, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+795 PC: d, A: 71, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+796 PC: e, A: 71, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+797 PC: f, A: 71, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+798 PC: 9, A: 71, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+799 PC: a, A: 71, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+800 PC: b, A: 71, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+801 PC: c, A: 72, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+802 PC: d, A: 72, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+803 PC: e, A: 72, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+804 PC: f, A: 72, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+805 PC: 9, A: 72, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+806 PC: a, A: 72, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+807 PC: b, A: 72, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+808 PC: c, A: 73, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+809 PC: d, A: 73, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+810 PC: e, A: 73, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+811 PC: f, A: 73, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+812 PC: 9, A: 73, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+813 PC: a, A: 73, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+814 PC: b, A: 73, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+815 PC: c, A: 74, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+816 PC: d, A: 74, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+817 PC: e, A: 74, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+818 PC: f, A: 74, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+819 PC: 9, A: 74, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+820 PC: a, A: 74, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+821 PC: b, A: 74, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+822 PC: c, A: 75, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+823 PC: d, A: 75, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+824 PC: e, A: 75, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+825 PC: f, A: 75, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+826 PC: 9, A: 75, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+827 PC: a, A: 75, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+828 PC: b, A: 75, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+829 PC: c, A: 76, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+830 PC: d, A: 76, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+831 PC: e, A: 76, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+832 PC: f, A: 76, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+833 PC: 9, A: 76, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+834 PC: a, A: 76, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+835 PC: b, A: 76, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+836 PC: c, A: 77, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+837 PC: d, A: 77, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+838 PC: e, A: 77, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+839 PC: f, A: 77, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+840 PC: 9, A: 77, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+841 PC: a, A: 77, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+842 PC: b, A: 77, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+843 PC: c, A: 78, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+844 PC: d, A: 78, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+845 PC: e, A: 78, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+846 PC: f, A: 78, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+847 PC: 9, A: 78, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+848 PC: a, A: 78, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+849 PC: b, A: 78, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+850 PC: c, A: 79, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+851 PC: d, A: 79, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+852 PC: e, A: 79, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+853 PC: f, A: 79, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+854 PC: 9, A: 79, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+855 PC: a, A: 79, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+856 PC: b, A: 79, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+857 PC: c, A: 7a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+858 PC: d, A: 7a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+859 PC: e, A: 7a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+860 PC: f, A: 7a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+861 PC: 9, A: 7a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+862 PC: a, A: 7a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+863 PC: b, A: 7a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+864 PC: c, A: 7b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+865 PC: d, A: 7b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+866 PC: e, A: 7b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+867 PC: f, A: 7b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+868 PC: 9, A: 7b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+869 PC: a, A: 7b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+870 PC: b, A: 7b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+871 PC: c, A: 7c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+872 PC: d, A: 7c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+873 PC: e, A: 7c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+874 PC: f, A: 7c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+875 PC: 9, A: 7c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+876 PC: a, A: 7c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+877 PC: b, A: 7c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+878 PC: c, A: 7d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+879 PC: d, A: 7d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+880 PC: e, A: 7d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+881 PC: f, A: 7d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+882 PC: 9, A: 7d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+883 PC: a, A: 7d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+884 PC: b, A: 7d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+885 PC: c, A: 7e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+886 PC: d, A: 7e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+887 PC: e, A: 7e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+888 PC: f, A: 7e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+889 PC: 9, A: 7e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+890 PC: a, A: 7e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+891 PC: b, A: 7e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+892 PC: c, A: 7f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+893 PC: d, A: 7f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+894 PC: e, A: 7f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+895 PC: f, A: 7f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+896 PC: 9, A: 7f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+897 PC: a, A: 7f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+898 PC: b, A: 7f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+899 PC: c, A: 80, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+900 PC: d, A: 80, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+901 PC: e, A: 80, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+902 PC: f, A: 80, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+903 PC: 9, A: 80, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+904 PC: a, A: 80, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+905 PC: b, A: 80, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+906 PC: c, A: 81, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+907 PC: d, A: 81, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+908 PC: e, A: 81, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+909 PC: f, A: 81, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+910 PC: 9, A: 81, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+911 PC: a, A: 81, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+912 PC: b, A: 81, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+913 PC: c, A: 82, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+914 PC: d, A: 82, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+915 PC: e, A: 82, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+916 PC: f, A: 82, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+917 PC: 9, A: 82, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+918 PC: a, A: 82, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+919 PC: b, A: 82, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+920 PC: c, A: 83, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+921 PC: d, A: 83, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+922 PC: e, A: 83, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+923 PC: f, A: 83, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+924 PC: 9, A: 83, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+925 PC: a, A: 83, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+926 PC: b, A: 83, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+927 PC: c, A: 84, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+928 PC: d, A: 84, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+929 PC: e, A: 84, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+930 PC: f, A: 84, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+931 PC: 9, A: 84, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+932 PC: a, A: 84, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+933 PC: b, A: 84, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+934 PC: c, A: 85, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+935 PC: d, A: 85, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+936 PC: e, A: 85, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+937 PC: f, A: 85, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+938 PC: 9, A: 85, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+939 PC: a, A: 85, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+940 PC: b, A: 85, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+941 PC: c, A: 86, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+942 PC: d, A: 86, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+943 PC: e, A: 86, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+944 PC: f, A: 86, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+945 PC: 9, A: 86, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+946 PC: a, A: 86, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+947 PC: b, A: 86, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+948 PC: c, A: 87, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+949 PC: d, A: 87, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+950 PC: e, A: 87, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+951 PC: f, A: 87, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+952 PC: 9, A: 87, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+953 PC: a, A: 87, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+954 PC: b, A: 87, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+955 PC: c, A: 88, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+956 PC: d, A: 88, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+957 PC: e, A: 88, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+958 PC: f, A: 88, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+959 PC: 9, A: 88, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+960 PC: a, A: 88, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+961 PC: b, A: 88, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+962 PC: c, A: 89, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+963 PC: d, A: 89, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+964 PC: e, A: 89, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+965 PC: f, A: 89, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+966 PC: 9, A: 89, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+967 PC: a, A: 89, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+968 PC: b, A: 89, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+969 PC: c, A: 8a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+970 PC: d, A: 8a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+971 PC: e, A: 8a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+972 PC: f, A: 8a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+973 PC: 9, A: 8a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+974 PC: a, A: 8a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+975 PC: b, A: 8a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+976 PC: c, A: 8b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+977 PC: d, A: 8b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+978 PC: e, A: 8b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+979 PC: f, A: 8b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+980 PC: 9, A: 8b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+981 PC: a, A: 8b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+982 PC: b, A: 8b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+983 PC: c, A: 8c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+984 PC: d, A: 8c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+985 PC: e, A: 8c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+986 PC: f, A: 8c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+987 PC: 9, A: 8c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+988 PC: a, A: 8c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+989 PC: b, A: 8c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+990 PC: c, A: 8d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+991 PC: d, A: 8d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+992 PC: e, A: 8d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+993 PC: f, A: 8d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+994 PC: 9, A: 8d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+995 PC: a, A: 8d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+996 PC: b, A: 8d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+997 PC: c, A: 8e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+998 PC: d, A: 8e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+999 PC: e, A: 8e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1000 PC: f, A: 8e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1001 PC: 9, A: 8e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1002 PC: a, A: 8e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1003 PC: b, A: 8e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1004 PC: c, A: 8f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1005 PC: d, A: 8f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1006 PC: e, A: 8f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1007 PC: f, A: 8f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1008 PC: 9, A: 8f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1009 PC: a, A: 8f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1010 PC: b, A: 8f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1011 PC: c, A: 90, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1012 PC: d, A: 90, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1013 PC: e, A: 90, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1014 PC: f, A: 90, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1015 PC: 9, A: 90, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1016 PC: a, A: 90, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1017 PC: b, A: 90, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1018 PC: c, A: 91, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1019 PC: d, A: 91, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1020 PC: e, A: 91, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1021 PC: f, A: 91, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1022 PC: 9, A: 91, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1023 PC: a, A: 91, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1024 PC: b, A: 91, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1025 PC: c, A: 92, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1026 PC: d, A: 92, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1027 PC: e, A: 92, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1028 PC: f, A: 92, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1029 PC: 9, A: 92, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1030 PC: a, A: 92, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1031 PC: b, A: 92, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1032 PC: c, A: 93, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1033 PC: d, A: 93, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1034 PC: e, A: 93, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1035 PC: f, A: 93, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1036 PC: 9, A: 93, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1037 PC: a, A: 93, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1038 PC: b, A: 93, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1039 PC: c, A: 94, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1040 PC: d, A: 94, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1041 PC: e, A: 94, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1042 PC: f, A: 94, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1043 PC: 9, A: 94, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1044 PC: a, A: 94, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1045 PC: b, A: 94, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1046 PC: c, A: 95, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1047 PC: d, A: 95, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1048 PC: e, A: 95, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1049 PC: f, A: 95, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1050 PC: 9, A: 95, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1051 PC: a, A: 95, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1052 PC: b, A: 95, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1053 PC: c, A: 96, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1054 PC: d, A: 96, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1055 PC: e, A: 96, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1056 PC: f, A: 96, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1057 PC: 9, A: 96, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1058 PC: a, A: 96, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1059 PC: b, A: 96, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1060 PC: c, A: 97, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1061 PC: d, A: 97, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1062 PC: e, A: 97, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1063 PC: f, A: 97, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1064 PC: 9, A: 97, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1065 PC: a, A: 97, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1066 PC: b, A: 97, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1067 PC: c, A: 98, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1068 PC: d, A: 98, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1069 PC: e, A: 98, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1070 PC: f, A: 98, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1071 PC: 9, A: 98, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1072 PC: a, A: 98, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1073 PC: b, A: 98, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1074 PC: c, A: 99, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1075 PC: d, A: 99, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1076 PC: e, A: 99, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1077 PC: f, A: 99, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1078 PC: 9, A: 99, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1079 PC: a, A: 99, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1080 PC: b, A: 99, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1081 PC: c, A: 9a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1082 PC: d, A: 9a, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1083 PC: e, A: 9a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1084 PC: f, A: 9a, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1085 PC: 9, A: 9a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1086 PC: a, A: 9a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1087 PC: b, A: 9a, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1088 PC: c, A: 9b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1089 PC: d, A: 9b, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1090 PC: e, A: 9b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1091 PC: f, A: 9b, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1092 PC: 9, A: 9b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1093 PC: a, A: 9b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1094 PC: b, A: 9b, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1095 PC: c, A: 9c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1096 PC: d, A: 9c, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1097 PC: e, A: 9c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1098 PC: f, A: 9c, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1099 PC: 9, A: 9c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1100 PC: a, A: 9c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1101 PC: b, A: 9c, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1102 PC: c, A: 9d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1103 PC: d, A: 9d, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1104 PC: e, A: 9d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1105 PC: f, A: 9d, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1106 PC: 9, A: 9d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1107 PC: a, A: 9d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1108 PC: b, A: 9d, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1109 PC: c, A: 9e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1110 PC: d, A: 9e, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1111 PC: e, A: 9e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1112 PC: f, A: 9e, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1113 PC: 9, A: 9e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1114 PC: a, A: 9e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1115 PC: b, A: 9e, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1116 PC: c, A: 9f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1117 PC: d, A: 9f, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1118 PC: e, A: 9f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1119 PC: f, A: 9f, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1120 PC: 9, A: 9f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1121 PC: a, A: 9f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1122 PC: b, A: 9f, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1123 PC: c, A: a0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1124 PC: d, A: a0, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1125 PC: e, A: a0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1126 PC: f, A: a0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1127 PC: 9, A: a0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1128 PC: a, A: a0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1129 PC: b, A: a0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1130 PC: c, A: a1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1131 PC: d, A: a1, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1132 PC: e, A: a1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1133 PC: f, A: a1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1134 PC: 9, A: a1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1135 PC: a, A: a1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1136 PC: b, A: a1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1137 PC: c, A: a2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1138 PC: d, A: a2, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1139 PC: e, A: a2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1140 PC: f, A: a2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1141 PC: 9, A: a2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1142 PC: a, A: a2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1143 PC: b, A: a2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1144 PC: c, A: a3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1145 PC: d, A: a3, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1146 PC: e, A: a3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1147 PC: f, A: a3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1148 PC: 9, A: a3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1149 PC: a, A: a3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1150 PC: b, A: a3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1151 PC: c, A: a4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1152 PC: d, A: a4, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1153 PC: e, A: a4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1154 PC: f, A: a4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1155 PC: 9, A: a4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1156 PC: a, A: a4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1157 PC: b, A: a4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1158 PC: c, A: a5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1159 PC: d, A: a5, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1160 PC: e, A: a5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1161 PC: f, A: a5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1162 PC: 9, A: a5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1163 PC: a, A: a5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1164 PC: b, A: a5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1165 PC: c, A: a6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1166 PC: d, A: a6, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1167 PC: e, A: a6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1168 PC: f, A: a6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1169 PC: 9, A: a6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1170 PC: a, A: a6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1171 PC: b, A: a6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1172 PC: c, A: a7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1173 PC: d, A: a7, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1174 PC: e, A: a7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1175 PC: f, A: a7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1176 PC: 9, A: a7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1177 PC: a, A: a7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1178 PC: b, A: a7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1179 PC: c, A: a8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1180 PC: d, A: a8, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1181 PC: e, A: a8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1182 PC: f, A: a8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1183 PC: 9, A: a8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1184 PC: a, A: a8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1185 PC: b, A: a8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1186 PC: c, A: a9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1187 PC: d, A: a9, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1188 PC: e, A: a9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1189 PC: f, A: a9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1190 PC: 9, A: a9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1191 PC: a, A: a9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1192 PC: b, A: a9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1193 PC: c, A: aa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1194 PC: d, A: aa, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1195 PC: e, A: aa, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1196 PC: f, A: aa, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1197 PC: 9, A: aa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1198 PC: a, A: aa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1199 PC: b, A: aa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1200 PC: c, A: ab, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1201 PC: d, A: ab, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1202 PC: e, A: ab, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1203 PC: f, A: ab, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1204 PC: 9, A: ab, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1205 PC: a, A: ab, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1206 PC: b, A: ab, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1207 PC: c, A: ac, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1208 PC: d, A: ac, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1209 PC: e, A: ac, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1210 PC: f, A: ac, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1211 PC: 9, A: ac, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1212 PC: a, A: ac, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1213 PC: b, A: ac, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1214 PC: c, A: ad, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1215 PC: d, A: ad, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1216 PC: e, A: ad, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1217 PC: f, A: ad, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1218 PC: 9, A: ad, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1219 PC: a, A: ad, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1220 PC: b, A: ad, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1221 PC: c, A: ae, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1222 PC: d, A: ae, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1223 PC: e, A: ae, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1224 PC: f, A: ae, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1225 PC: 9, A: ae, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1226 PC: a, A: ae, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1227 PC: b, A: ae, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1228 PC: c, A: af, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1229 PC: d, A: af, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1230 PC: e, A: af, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1231 PC: f, A: af, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1232 PC: 9, A: af, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1233 PC: a, A: af, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1234 PC: b, A: af, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1235 PC: c, A: b0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1236 PC: d, A: b0, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1237 PC: e, A: b0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1238 PC: f, A: b0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1239 PC: 9, A: b0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1240 PC: a, A: b0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1241 PC: b, A: b0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1242 PC: c, A: b1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1243 PC: d, A: b1, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1244 PC: e, A: b1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1245 PC: f, A: b1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1246 PC: 9, A: b1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1247 PC: a, A: b1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1248 PC: b, A: b1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1249 PC: c, A: b2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1250 PC: d, A: b2, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1251 PC: e, A: b2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1252 PC: f, A: b2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1253 PC: 9, A: b2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1254 PC: a, A: b2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1255 PC: b, A: b2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1256 PC: c, A: b3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1257 PC: d, A: b3, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1258 PC: e, A: b3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1259 PC: f, A: b3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1260 PC: 9, A: b3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1261 PC: a, A: b3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1262 PC: b, A: b3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1263 PC: c, A: b4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1264 PC: d, A: b4, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1265 PC: e, A: b4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1266 PC: f, A: b4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1267 PC: 9, A: b4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1268 PC: a, A: b4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1269 PC: b, A: b4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1270 PC: c, A: b5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1271 PC: d, A: b5, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1272 PC: e, A: b5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1273 PC: f, A: b5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1274 PC: 9, A: b5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1275 PC: a, A: b5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1276 PC: b, A: b5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1277 PC: c, A: b6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1278 PC: d, A: b6, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1279 PC: e, A: b6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1280 PC: f, A: b6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1281 PC: 9, A: b6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1282 PC: a, A: b6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1283 PC: b, A: b6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1284 PC: c, A: b7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1285 PC: d, A: b7, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1286 PC: e, A: b7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1287 PC: f, A: b7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1288 PC: 9, A: b7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1289 PC: a, A: b7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1290 PC: b, A: b7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1291 PC: c, A: b8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1292 PC: d, A: b8, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1293 PC: e, A: b8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1294 PC: f, A: b8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1295 PC: 9, A: b8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1296 PC: a, A: b8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1297 PC: b, A: b8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1298 PC: c, A: b9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1299 PC: d, A: b9, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1300 PC: e, A: b9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1301 PC: f, A: b9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1302 PC: 9, A: b9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1303 PC: a, A: b9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1304 PC: b, A: b9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1305 PC: c, A: ba, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1306 PC: d, A: ba, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1307 PC: e, A: ba, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1308 PC: f, A: ba, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1309 PC: 9, A: ba, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1310 PC: a, A: ba, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1311 PC: b, A: ba, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1312 PC: c, A: bb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1313 PC: d, A: bb, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1314 PC: e, A: bb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1315 PC: f, A: bb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1316 PC: 9, A: bb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1317 PC: a, A: bb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1318 PC: b, A: bb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1319 PC: c, A: bc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1320 PC: d, A: bc, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1321 PC: e, A: bc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1322 PC: f, A: bc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1323 PC: 9, A: bc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1324 PC: a, A: bc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1325 PC: b, A: bc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1326 PC: c, A: bd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1327 PC: d, A: bd, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1328 PC: e, A: bd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1329 PC: f, A: bd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1330 PC: 9, A: bd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1331 PC: a, A: bd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1332 PC: b, A: bd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1333 PC: c, A: be, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1334 PC: d, A: be, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1335 PC: e, A: be, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1336 PC: f, A: be, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1337 PC: 9, A: be, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1338 PC: a, A: be, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1339 PC: b, A: be, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1340 PC: c, A: bf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1341 PC: d, A: bf, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1342 PC: e, A: bf, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1343 PC: f, A: bf, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1344 PC: 9, A: bf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1345 PC: a, A: bf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1346 PC: b, A: bf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1347 PC: c, A: c0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1348 PC: d, A: c0, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1349 PC: e, A: c0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1350 PC: f, A: c0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1351 PC: 9, A: c0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1352 PC: a, A: c0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1353 PC: b, A: c0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1354 PC: c, A: c1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1355 PC: d, A: c1, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1356 PC: e, A: c1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1357 PC: f, A: c1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1358 PC: 9, A: c1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1359 PC: a, A: c1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1360 PC: b, A: c1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1361 PC: c, A: c2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1362 PC: d, A: c2, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1363 PC: e, A: c2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1364 PC: f, A: c2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1365 PC: 9, A: c2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1366 PC: a, A: c2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1367 PC: b, A: c2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1368 PC: c, A: c3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1369 PC: d, A: c3, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1370 PC: e, A: c3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1371 PC: f, A: c3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1372 PC: 9, A: c3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1373 PC: a, A: c3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1374 PC: b, A: c3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1375 PC: c, A: c4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1376 PC: d, A: c4, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1377 PC: e, A: c4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1378 PC: f, A: c4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1379 PC: 9, A: c4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1380 PC: a, A: c4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1381 PC: b, A: c4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1382 PC: c, A: c5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1383 PC: d, A: c5, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1384 PC: e, A: c5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1385 PC: f, A: c5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1386 PC: 9, A: c5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1387 PC: a, A: c5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1388 PC: b, A: c5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1389 PC: c, A: c6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1390 PC: d, A: c6, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1391 PC: e, A: c6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1392 PC: f, A: c6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1393 PC: 9, A: c6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1394 PC: a, A: c6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1395 PC: b, A: c6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1396 PC: c, A: c7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1397 PC: d, A: c7, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1398 PC: e, A: c7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1399 PC: f, A: c7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1400 PC: 9, A: c7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1401 PC: a, A: c7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1402 PC: b, A: c7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1403 PC: c, A: c8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1404 PC: d, A: c8, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1405 PC: e, A: c8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1406 PC: f, A: c8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1407 PC: 9, A: c8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1408 PC: a, A: c8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1409 PC: b, A: c8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1410 PC: c, A: c9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1411 PC: d, A: c9, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1412 PC: e, A: c9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1413 PC: f, A: c9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1414 PC: 9, A: c9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1415 PC: a, A: c9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1416 PC: b, A: c9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1417 PC: c, A: ca, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1418 PC: d, A: ca, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1419 PC: e, A: ca, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1420 PC: f, A: ca, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1421 PC: 9, A: ca, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1422 PC: a, A: ca, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1423 PC: b, A: ca, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1424 PC: c, A: cb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1425 PC: d, A: cb, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1426 PC: e, A: cb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1427 PC: f, A: cb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1428 PC: 9, A: cb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1429 PC: a, A: cb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1430 PC: b, A: cb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1431 PC: c, A: cc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1432 PC: d, A: cc, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1433 PC: e, A: cc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1434 PC: f, A: cc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1435 PC: 9, A: cc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1436 PC: a, A: cc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1437 PC: b, A: cc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1438 PC: c, A: cd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1439 PC: d, A: cd, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1440 PC: e, A: cd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1441 PC: f, A: cd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1442 PC: 9, A: cd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1443 PC: a, A: cd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1444 PC: b, A: cd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1445 PC: c, A: ce, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1446 PC: d, A: ce, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1447 PC: e, A: ce, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1448 PC: f, A: ce, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1449 PC: 9, A: ce, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1450 PC: a, A: ce, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1451 PC: b, A: ce, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1452 PC: c, A: cf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1453 PC: d, A: cf, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1454 PC: e, A: cf, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1455 PC: f, A: cf, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1456 PC: 9, A: cf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1457 PC: a, A: cf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1458 PC: b, A: cf, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1459 PC: c, A: d0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1460 PC: d, A: d0, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1461 PC: e, A: d0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1462 PC: f, A: d0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1463 PC: 9, A: d0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1464 PC: a, A: d0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1465 PC: b, A: d0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1466 PC: c, A: d1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1467 PC: d, A: d1, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1468 PC: e, A: d1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1469 PC: f, A: d1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1470 PC: 9, A: d1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1471 PC: a, A: d1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1472 PC: b, A: d1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1473 PC: c, A: d2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1474 PC: d, A: d2, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1475 PC: e, A: d2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1476 PC: f, A: d2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1477 PC: 9, A: d2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1478 PC: a, A: d2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1479 PC: b, A: d2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1480 PC: c, A: d3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1481 PC: d, A: d3, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1482 PC: e, A: d3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1483 PC: f, A: d3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1484 PC: 9, A: d3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1485 PC: a, A: d3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1486 PC: b, A: d3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1487 PC: c, A: d4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1488 PC: d, A: d4, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1489 PC: e, A: d4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1490 PC: f, A: d4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1491 PC: 9, A: d4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1492 PC: a, A: d4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1493 PC: b, A: d4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1494 PC: c, A: d5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1495 PC: d, A: d5, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1496 PC: e, A: d5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1497 PC: f, A: d5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1498 PC: 9, A: d5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1499 PC: a, A: d5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1500 PC: b, A: d5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1501 PC: c, A: d6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1502 PC: d, A: d6, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1503 PC: e, A: d6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1504 PC: f, A: d6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1505 PC: 9, A: d6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1506 PC: a, A: d6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1507 PC: b, A: d6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1508 PC: c, A: d7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1509 PC: d, A: d7, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1510 PC: e, A: d7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1511 PC: f, A: d7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1512 PC: 9, A: d7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1513 PC: a, A: d7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1514 PC: b, A: d7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1515 PC: c, A: d8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1516 PC: d, A: d8, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1517 PC: e, A: d8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1518 PC: f, A: d8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1519 PC: 9, A: d8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1520 PC: a, A: d8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1521 PC: b, A: d8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1522 PC: c, A: d9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1523 PC: d, A: d9, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1524 PC: e, A: d9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1525 PC: f, A: d9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1526 PC: 9, A: d9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1527 PC: a, A: d9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1528 PC: b, A: d9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1529 PC: c, A: da, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1530 PC: d, A: da, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1531 PC: e, A: da, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1532 PC: f, A: da, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1533 PC: 9, A: da, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1534 PC: a, A: da, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1535 PC: b, A: da, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1536 PC: c, A: db, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1537 PC: d, A: db, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1538 PC: e, A: db, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1539 PC: f, A: db, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1540 PC: 9, A: db, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1541 PC: a, A: db, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1542 PC: b, A: db, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1543 PC: c, A: dc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1544 PC: d, A: dc, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1545 PC: e, A: dc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1546 PC: f, A: dc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1547 PC: 9, A: dc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1548 PC: a, A: dc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1549 PC: b, A: dc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1550 PC: c, A: dd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1551 PC: d, A: dd, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1552 PC: e, A: dd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1553 PC: f, A: dd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1554 PC: 9, A: dd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1555 PC: a, A: dd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1556 PC: b, A: dd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1557 PC: c, A: de, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1558 PC: d, A: de, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1559 PC: e, A: de, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1560 PC: f, A: de, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1561 PC: 9, A: de, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1562 PC: a, A: de, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1563 PC: b, A: de, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1564 PC: c, A: df, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1565 PC: d, A: df, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1566 PC: e, A: df, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1567 PC: f, A: df, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1568 PC: 9, A: df, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1569 PC: a, A: df, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1570 PC: b, A: df, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1571 PC: c, A: e0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1572 PC: d, A: e0, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1573 PC: e, A: e0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1574 PC: f, A: e0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1575 PC: 9, A: e0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1576 PC: a, A: e0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1577 PC: b, A: e0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1578 PC: c, A: e1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1579 PC: d, A: e1, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1580 PC: e, A: e1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1581 PC: f, A: e1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1582 PC: 9, A: e1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1583 PC: a, A: e1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1584 PC: b, A: e1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1585 PC: c, A: e2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1586 PC: d, A: e2, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1587 PC: e, A: e2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1588 PC: f, A: e2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1589 PC: 9, A: e2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1590 PC: a, A: e2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1591 PC: b, A: e2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1592 PC: c, A: e3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1593 PC: d, A: e3, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1594 PC: e, A: e3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1595 PC: f, A: e3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1596 PC: 9, A: e3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1597 PC: a, A: e3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1598 PC: b, A: e3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1599 PC: c, A: e4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1600 PC: d, A: e4, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1601 PC: e, A: e4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1602 PC: f, A: e4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1603 PC: 9, A: e4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1604 PC: a, A: e4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1605 PC: b, A: e4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1606 PC: c, A: e5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1607 PC: d, A: e5, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1608 PC: e, A: e5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1609 PC: f, A: e5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1610 PC: 9, A: e5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1611 PC: a, A: e5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1612 PC: b, A: e5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1613 PC: c, A: e6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1614 PC: d, A: e6, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1615 PC: e, A: e6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1616 PC: f, A: e6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1617 PC: 9, A: e6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1618 PC: a, A: e6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1619 PC: b, A: e6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1620 PC: c, A: e7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1621 PC: d, A: e7, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1622 PC: e, A: e7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1623 PC: f, A: e7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1624 PC: 9, A: e7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1625 PC: a, A: e7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1626 PC: b, A: e7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1627 PC: c, A: e8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1628 PC: d, A: e8, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1629 PC: e, A: e8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1630 PC: f, A: e8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1631 PC: 9, A: e8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1632 PC: a, A: e8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1633 PC: b, A: e8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1634 PC: c, A: e9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1635 PC: d, A: e9, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1636 PC: e, A: e9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1637 PC: f, A: e9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1638 PC: 9, A: e9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1639 PC: a, A: e9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1640 PC: b, A: e9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1641 PC: c, A: ea, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1642 PC: d, A: ea, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1643 PC: e, A: ea, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1644 PC: f, A: ea, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1645 PC: 9, A: ea, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1646 PC: a, A: ea, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1647 PC: b, A: ea, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1648 PC: c, A: eb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1649 PC: d, A: eb, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1650 PC: e, A: eb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1651 PC: f, A: eb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1652 PC: 9, A: eb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1653 PC: a, A: eb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1654 PC: b, A: eb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1655 PC: c, A: ec, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1656 PC: d, A: ec, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1657 PC: e, A: ec, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1658 PC: f, A: ec, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1659 PC: 9, A: ec, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1660 PC: a, A: ec, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1661 PC: b, A: ec, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1662 PC: c, A: ed, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1663 PC: d, A: ed, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1664 PC: e, A: ed, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1665 PC: f, A: ed, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1666 PC: 9, A: ed, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1667 PC: a, A: ed, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1668 PC: b, A: ed, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1669 PC: c, A: ee, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1670 PC: d, A: ee, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1671 PC: e, A: ee, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1672 PC: f, A: ee, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1673 PC: 9, A: ee, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1674 PC: a, A: ee, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1675 PC: b, A: ee, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1676 PC: c, A: ef, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1677 PC: d, A: ef, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1678 PC: e, A: ef, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1679 PC: f, A: ef, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1680 PC: 9, A: ef, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1681 PC: a, A: ef, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1682 PC: b, A: ef, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1683 PC: c, A: f0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1684 PC: d, A: f0, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1685 PC: e, A: f0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1686 PC: f, A: f0, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1687 PC: 9, A: f0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1688 PC: a, A: f0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1689 PC: b, A: f0, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1690 PC: c, A: f1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1691 PC: d, A: f1, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1692 PC: e, A: f1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1693 PC: f, A: f1, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1694 PC: 9, A: f1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1695 PC: a, A: f1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1696 PC: b, A: f1, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1697 PC: c, A: f2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1698 PC: d, A: f2, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1699 PC: e, A: f2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1700 PC: f, A: f2, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1701 PC: 9, A: f2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1702 PC: a, A: f2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1703 PC: b, A: f2, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1704 PC: c, A: f3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1705 PC: d, A: f3, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1706 PC: e, A: f3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1707 PC: f, A: f3, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1708 PC: 9, A: f3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1709 PC: a, A: f3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1710 PC: b, A: f3, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1711 PC: c, A: f4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1712 PC: d, A: f4, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1713 PC: e, A: f4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1714 PC: f, A: f4, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1715 PC: 9, A: f4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1716 PC: a, A: f4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1717 PC: b, A: f4, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1718 PC: c, A: f5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1719 PC: d, A: f5, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1720 PC: e, A: f5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1721 PC: f, A: f5, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1722 PC: 9, A: f5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1723 PC: a, A: f5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1724 PC: b, A: f5, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1725 PC: c, A: f6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1726 PC: d, A: f6, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1727 PC: e, A: f6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1728 PC: f, A: f6, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1729 PC: 9, A: f6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1730 PC: a, A: f6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1731 PC: b, A: f6, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1732 PC: c, A: f7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1733 PC: d, A: f7, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1734 PC: e, A: f7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1735 PC: f, A: f7, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1736 PC: 9, A: f7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1737 PC: a, A: f7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1738 PC: b, A: f7, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1739 PC: c, A: f8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1740 PC: d, A: f8, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1741 PC: e, A: f8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1742 PC: f, A: f8, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1743 PC: 9, A: f8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1744 PC: a, A: f8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1745 PC: b, A: f8, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1746 PC: c, A: f9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1747 PC: d, A: f9, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1748 PC: e, A: f9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1749 PC: f, A: f9, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1750 PC: 9, A: f9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1751 PC: a, A: f9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1752 PC: b, A: f9, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1753 PC: c, A: fa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1754 PC: d, A: fa, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1755 PC: e, A: fa, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1756 PC: f, A: fa, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1757 PC: 9, A: fa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1758 PC: a, A: fa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1759 PC: b, A: fa, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1760 PC: c, A: fb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1761 PC: d, A: fb, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1762 PC: e, A: fb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1763 PC: f, A: fb, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1764 PC: 9, A: fb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1765 PC: a, A: fb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1766 PC: b, A: fb, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1767 PC: c, A: fc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1768 PC: d, A: fc, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1769 PC: e, A: fc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1770 PC: f, A: fc, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1771 PC: 9, A: fc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1772 PC: a, A: fc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ÿOUT B
+1773 PC: b, A: fc, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1774 PC: c, A: fd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1775 PC: d, A: fd, B: ff, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1776 PC: e, A: fd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1777 PC: f, A: fd, B: ff, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR D,[D]
+1778 PC: 9, A: fd, B: ff, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+LOAD B,[A]
+1779 PC: a, A: fd, B: 0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+ OUT B
+1780 PC: b, A: fd, B: 0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+INC A
+1781 PC: c, A: fe, B: 0, C: 5, D: 10, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,0
+1782 PC: d, A: fe, B: 0, C: 5, D: 0, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SLI D,9
+1783 PC: e, A: fe, B: 0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+SKIPZ B
+1784 PC: 10, A: fe, B: 0, C: 5, D: 9, SP: fd, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+POP B
+1785 PC: 11, A: fe, B: 0, C: 5, D: 9, SP: fe, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+POP A
+1786 PC: 12, A: 0, B: 0, C: 5, D: 9, SP: ff, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+POP C
+1787 PC: 13, A: 0, B: 0, C: 5, D: 9, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+JALR C,[C]
+1788 PC: 5, A: 0, B: 0, C: 14, D: 9, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff
+HALT
+1789 PC: 6, A: 0, B: 0, C: 14, D: 9, SP: 0, IPAGE: 0, DPAGE: 0, SPAGE: 0
+ff ff

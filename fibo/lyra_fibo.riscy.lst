@@ -1,0 +1,37 @@
+	; Set up A and B as n and n-1 (1, 1)
+
+0000	    sli A 0
+0001	    sli A 1	
+
+0002	    sli B 0
+0003	    sli B 1	
+	; C is how many numbers we want (3-13 inclusive)
+
+0004	    sli C 0
+0005	    sli C 13	
+
+0006	    out A
+0007	    out B	
+	    ; Take the initial (1, 1) away
+
+0008	    dec C
+0009	    dec C	
+
+000a	loop:
+000a	    push B
+000b	    add B A
+000c	    pop A	    
+
+000d	    out B	
+
+000e	    dec C	
+
+000f		sliu D #loop	[00]
+0010		slil D #loop	[0a]	    ; Check if counted enough
+
+0011	    skipz C
+0012	    jalr D D	
+	
+
+0013	    halt	
+

@@ -1,0 +1,59 @@
+    sli A,0
+    sli A,3
+
+    sli C,0
+    sli C,4
+
+    sub B,B
+    add B,A
+
+    dec C
+
+loop:
+    push C
+    li D, #mult
+    jalr C,D
+    sub A,A
+    add A,C
+
+    pop C
+    dec C
+
+    li D, #loop
+    skipz C
+    jalr D,D
+
+    out A
+
+    halt
+
+; Multiplication function
+; mult(A,B) -> C
+mult:
+    push C
+    push B
+    push A
+
+    sub C,C
+    add C,A
+
+    dec B
+
+mult_loop:
+
+    add C,A
+    dec B
+    
+    li D, #mult_loop
+    ; Check if counted enough
+    skipz B
+    jalr D,D
+
+    pop A
+    pop B
+
+    pop D
+    jalr D,D
+
+
+

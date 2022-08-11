@@ -1,0 +1,44 @@
+main:
+    li A, #data
+
+    li D, #print
+    jalr C,D
+
+    halt
+
+
+
+
+; print(char*)
+print:
+    push C
+    push A
+    push B
+
+print_loop:
+    load B,A
+    out B
+    inc A
+
+    li D, #print_loop
+
+    skipz B
+    jalr D,D
+
+    pop B
+    pop A
+    pop C
+
+
+    jalr C,C
+
+
+data:
+    db 0x48
+    db 0x65
+    db 0x6C
+    db 0x6C
+    db 0x6F
+    db 0x21
+    db 0x0D
+    db 0x00

@@ -1,0 +1,63 @@
+
+0000	    sli A 0
+0001	    sli A 3	
+
+0002	    sli C 0
+0003	    sli C 4	
+
+0004	    sub B B
+0005	    add B A	
+
+0006	    dec C	
+
+0007	loop:
+0007	    push C
+0008		sliu D #mult	[01]
+0009		slil D #mult	[05]
+000a	    jalr C D
+000b	    sub A A
+000c	    add A C	
+
+000d	    pop C
+000e	    dec C	
+
+000f		sliu D #loop	[00]
+0010		slil D #loop	[07]
+0011	    skipz C
+0012	    jalr D D	
+
+0013	    out A	
+
+0014	    halt	
+	; Multiplication function
+	; mult(A,B) -> C
+
+0015	mult:
+0015	    push C
+0016	    push B
+0017	    push A	
+
+0018	    sub C C
+0019	    add C A	
+
+001a	    dec B	
+
+001b	mult_loop:	
+
+001b	    add C A
+001c	    dec B	    
+
+001d		sliu D #mult_loop	[01]
+001e		slil D #mult_loop	[0b]	    ; Check if counted enough
+
+001f	    skipz B
+0020	    jalr D D	
+
+0021	    pop A
+0022	    pop B	
+
+0023	    pop D
+0024	    jalr D D	
+	
+	
+

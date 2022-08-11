@@ -1,0 +1,23 @@
+
+0000	    sli A 0
+0001	    sli A 0	
+
+0002	    sli B 3
+0003	    sli B 0	
+
+0004	    sli D 0
+0005	    sli D 6	
+
+0006	loop:
+0006	    inc A
+0007	    inc A
+0008	    inc B
+0009	    inc B	
+
+000a	    out A	
+
+000b	    skipz A
+000c	    jalr C D	  
+
+000d	    halt	
+

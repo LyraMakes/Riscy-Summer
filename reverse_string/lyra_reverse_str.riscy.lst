@@ -1,0 +1,67 @@
+
+0000	main:
+0000		sliu A #data	[02]
+0001		slil A #data	[01]	
+
+0002		sliu D #print	[00]
+0003		slil D #print	[06]
+0004	    jalr C D	
+
+0005	    halt	
+	
+	
+	
+	; rev_print(char*)
+
+0006	print:
+0006	    push C
+0007	    push A
+0008	    push B	
+	
+
+0009	    sub C C
+000a	    add C A
+000b	    dec C
+000c	find_end:
+000c	    inc C
+000d	    load B C	    
+
+000e		sliu D #find_end	[00]
+000f		slil D #find_end	[0c]
+0010	    skipz B
+0011	    jalr D  D	
+	
+
+0012	    push A	
+
+0013	print_loop:
+0013	    pop A
+0014	    dec C
+0015	    load B C
+0016	    out B	
+
+0017		sliu D #print_loop	[01]
+0018		slil D #print_loop	[03]	
+
+0019	    push A
+001a	    sub A  C	
+
+001b	    skipz A
+001c	    jalr D D	
+
+001d	    pop B
+001e	    pop A
+001f	    pop C	
+
+0020	    jalr C C	
+	
+
+0021	data:
+0021	    db 0x48
+0022	    db 0x65
+0023	    db 0x6C
+0024	    db 0x6C
+0025	    db 0x6F
+0026	    db 0x21
+0027	    db 0x0D
+0028	    db 0x00

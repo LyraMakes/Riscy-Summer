@@ -1,0 +1,16 @@
+    sli A,0
+    sli A,1
+
+
+loop:
+    out A
+    add A,A
+
+    sli D,0
+    sli D,2
+
+    skipz A
+    jalr C,D
+  
+    halt
+

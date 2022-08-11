@@ -1,0 +1,35 @@
+; Set up A and B as n and n-1 (1, 1)
+    sli A,0
+    sli A,1
+
+    sli B,0
+    sli B,1
+
+; C is how many numbers we want (3-13 inclusive)
+    sli C,0
+    sli C,13
+
+    out A
+    out B
+
+    ; Take the initial (1, 1) away
+    dec C
+    dec C
+
+loop:
+    push B
+    add B,A
+    pop A
+    
+    out B
+
+    dec C
+
+    li D, #loop
+    ; Check if counted enough
+    skipz C
+    jalr D,D
+
+
+    halt
+

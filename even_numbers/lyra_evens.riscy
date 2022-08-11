@@ -1,0 +1,22 @@
+    sli A,0
+    sli A,0
+
+    sli B,3
+    sli B,0
+
+    sli D,0
+    sli D,6
+
+loop:
+    inc A
+    inc A
+    inc B
+    inc B
+
+    out A
+
+    skipz A
+    jalr C,D
+  
+    halt
+

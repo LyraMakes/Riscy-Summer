@@ -1,0 +1,85 @@
+
+0000	main:
+0000		sliu D #reverse_string	[00]
+0001		slil D #reverse_string	[04]	
+
+0002	    jalr C  D	
+
+0003	    halt	
+	
+
+0004	reverse_string:
+0004	    push A
+0005	    push B
+0006	    push C
+0007	    push D	
+	    ; D = Jump
+	    ; C = short term
+	    ; b = j
+	    ; a = i
+	
+
+0008		sliu B #string	[02]
+0009		slil B #string	[0b]	    
+
+000a	reverse_string_loop:
+000a	    load C  B	
+
+000b		sliu D #reverse_string_loop_done	[01]
+000c		slil D #reverse_string_loop_done	[03]
+000d	    skipz C
+000e	    jalr D  D	
+
+000f	    inc B	    
+
+0010		sliu D #reverse_string_loop	[00]
+0011		slil D #reverse_string_loop	[0a]
+0012	    jalr D  D	
+
+0013	reverse_string_loop_done:	
+
+0013	    dec B	
+
+0014		sliu A #string	[02]
+0015		slil A #string	[0b]	
+
+0016	reverse_string_swap_loop:
+0016	    sub C  C
+0017	    add C  B
+0018	    sub C  A
+0019		sliu D #reverse_string_complete	[02]
+001a		slil D #reverse_string_complete	[06]
+001b	    skipge C
+001c	    jalr D  D	
+
+001d	    load C  A
+001e	    load D  B
+001f	    store D  A
+0020	    store C  B
+0021	    inc A
+0022	    dec B
+0023		sliu D #reverse_string_swap_loop	[01]
+0024		slil D #reverse_string_swap_loop	[06]
+0025	    jalr D  D	
+	
+	
+	
+	
+
+0026	reverse_string_complete:
+0026	    pop D
+0027	    pop C
+0028	    pop B
+0029	    pop A
+002a	    jalr C C	
+	
+
+002b	data:	
+
+002b	string:
+002b	    db 0x48
+002c	    db 0x65
+002d	    db 0x6C
+002e	    db 0x6C
+002f	    db 0x6F
+0030	    db 0x21
