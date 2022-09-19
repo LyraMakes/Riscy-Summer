@@ -100,7 +100,7 @@ def macro(lines):
             newlines.append(line)
         elif line.split()[0][0] != ".":
             if line.split()[0] == "org":
-                page = int(line.split()[1], 16) / 256
+                page = int(line.split()[1], 16) // 256
             newlines.append(line)
         else:
             if line.split()[0] == ".call":  # e.g., .call printstring
